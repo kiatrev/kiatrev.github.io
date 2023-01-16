@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tennis demo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  </head>
+  <body>
+    <section id="Bloque1">
+        <div class="contenedor-img">
+            <div class="line">
+                <img src="imgs/fill-2.svg" class="fill-2" alt="">
+            </div>
+            <div class="grid">
+                <nav class="contenedor-nav">
+                    <div class="colapsar">
+                        <ul>
+                            <li><a class="text-white act" href="">Inicio</a></li>
+                            <li><a class="text-white" href="">Acerca de Nostros</a></li>
+                            <li><a class="text-white" href="">Historia</a></li>
+                            <li><a class="text-white" href="">Contacto</a></li>
+                        </ul>
+                        <a class="btn-colapsar text-white" type="button" ><h1>+</h1></a>
+                    </div>
+                        
+                 
+                </nav>
+                <div class="contenedor-idioma">
+                   <a href="">ES</a> <a href="">EN</a>
+                </div>
+                <div class="contenedor-texto">
+                    <div class="card-texto">
+                        <h1>Las mejores raquetas para jugar <span>Tennis</span></h1> 
+                        <a type="button" class="btn-acerca">ACERCA DE NOSTROS  ></a>
+                    </div>
+                    
+                    
+                </div>
+            </div> 
+       </div>
+    </section>
+    <section id="Bloque2">
+        <div class="container-row">
+            <div class="container-col1">
+                <h3>TENNIS</h3>
+            </div>
+            <div class="container-col2">
+                <h1>Raquetas.Accesorios.</h1>
+                <h1>Pelotas</h1><br>
+                <h4>Conoce nuestras raquetas y aprende a jugar Tennis cómo un profesional</h4>
+            </div>
+            <div class="container-col3">
+                <a class="btn-historia">Historia<img src="imgs/path.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="Bloque3">
+        <div class="container-row2">
+            <div class="container-btns">
+                <div class="container-row2 colum">
+                    <div class="container-col">
+                        <h1>Nuestras <span>Raquetas</span> </h1>
+                        <p>Conoce Nuestras raquetas y aprende a jugar Tennis cómo un profesional.</p>
+                    </div>
+                    <div class="container-col">
+                        <div class="section-badge">
+                            <span class="badge badge-default badge-sm active"></span>
+                            <span class="badge badge-default badge-sm"></span>
+                            <span class="badge badge-default  badge-sm"></span>
+                            <span class="badge badge-default badge-sm"></span>
+                        </div>
+                        <div class="section-direction">
+                            <span class="badge badge-default-outline badge-md ">
+                                <span class="arrow-left">◀</span>
+                            </span>
+                            <span class="badge badge-default-outline  badge-md active">
+                                <span class="arrow-right">▶</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-carrusel">
+                
+                <div class="container-cards">
+                    <div id="carusel">
+                        <div id="card-slider">
+                            <div class="card">
+                                <span class="badge  badge-md active num-card"><p>1</p></span>
+                               
+                            </div>
+                            <div class="card">
+                                <span class="badge  badge-md active"><p>2</p> </span>
+                                
+                            </div>
+                            <div class="card">
+                                <span class="badge  badge-md active"> <p>3</p> </span>
+                                
+                            </div>
+                            <div class="card">
+                                <span class="badge  badge-md active"> <p>4</p> </span>
+                                
+                            </div>
+                           
+                            <div style="clear:left;"></div>
+                        </div>
+                    </div>   
+                </div>
+              
+                
+            </div>
+        </div>
+      
+    </section>
+    <section id="Bloque4">
+        <img id="imgB4" src="imgs/bloque4.jpg" alt="">
+    </section>
+   <footer>
+        <div class="footer-section">
+            <div class="col">
+                <nav class="contenedor-nav h-auto" >
+                    <ul id="nav-bottom">
+                        <li><a class="text-dark-two act" href="">Inicio</a></li>
+                        <li><a class="text-dark-two" href="">Acerca de Nostros</a></li>
+                        <li><a class="text-dark-two" href="">Historia</a></li>
+                        <li><a class="text-dark-two" href="">Contacto</a></li>
+                    </ul>
+                </nav>
+                <nav class="contenedor-nav h-auto">
+                    <ul>
+                        <li><a href=""><img src="imgs/group-22.svg" alt=""></a></li>
+                        <li><a href=""><img src="imgs/group-23.svg" alt=""></a></li>
+                        <li><a href=""><img src="imgs/group-24.svg" alt=""></a></li>
+                        <li><a href=""><img src="imgs/group-25.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-img">
+                <img src="imgs/fill-2.svg" class="fill-2" alt="">
+            </div>
+        </div>
+   </footer>
+   <script>
+    $(document).ready(function(){
+        $(".btn-colapsar").click(function(event){
+            $(".colapsar ul").css('display','flex');
+        });
+    });
+   </script>
+  </body>
+</html>
